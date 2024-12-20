@@ -436,7 +436,7 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02ew;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .footer_form {
@@ -474,7 +474,5 @@ h1 {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-}
-.footer_form_btn:hover {
   cursor: pointer;
 }
