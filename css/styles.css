@@ -565,8 +565,11 @@ h1 {
 }
 .user_name_inp:focus {
   border-color: #4d5ae5;
+}
+.user_name_inp:focus-within + .form_sub_div_svg {
   fill: #4d5ae5;
 }
+
 .form_sub_div_svg {
   position: absolute;
   left: 16px;
@@ -617,7 +620,7 @@ h1 {
   justify-content: center;
   fill: transparent;
 }
-.user-privacy:checked + .ttt {
+.user-privacy:checked + .user-privacy_lbl span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
