@@ -551,6 +551,7 @@ h1 {
 }
 .form_sub_div_user {
   position: relative;
+  margin-bottom: 16px;
 }
 .user_name_inp {
   width: 100%;
