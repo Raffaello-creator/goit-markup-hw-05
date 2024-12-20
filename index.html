@@ -460,12 +460,12 @@
           <form class="footer_form">
             <label class="footer_form_label" for="input_email">
               <input
-                id="input_email"
-                name="input_email"
                 type="email"
+                name="input_email"
+                id="input_email"
                 class="footer_form_inpt"
-                placeholder="E-mail"
-            /></label>
+              />
+            </label>
             <button type="submit" class="footer_form_btn">
               Subscribe
               <svg width="24" height="24" class="footer_form_svg">
@@ -537,6 +537,23 @@
               placeholder="Text input"
               class="user_comment_textarea"
             ></textarea>
+          </div>
+          <div class="form_checkbox">
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+              class="user-privacy visually-hidden"
+            />
+            <label for="user-privacy" class="user-privacy_lbl"
+              ><span class="ttt">
+                <svg width="16" height="16" class="form_sub_div_svg">
+                  <use
+                    href="./images/symbol-defs.svg#icon-ok"
+                  ></use></svg></span
+              >I accept the terms and conditions of the Privacy Policy</label
+            >
           </div>
         </form>
       </div>
