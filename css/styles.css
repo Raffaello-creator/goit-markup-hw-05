@@ -605,8 +605,8 @@ h1 {
   color: #8e8f99;
 }
 .ttt {
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
