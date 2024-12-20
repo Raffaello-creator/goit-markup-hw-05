@@ -458,14 +458,19 @@
         <div class="footer_subscribe">
           <p class="footer_subscribe_p">Subscribe</p>
           <form class="footer_form">
-            <label
+            <label class="footer_form_label"
               ><input
                 class="footer_form_inpt"
+                name="input_email"
                 type="email"
                 placeholder="E-mail"
-                name="lastName"
             /></label>
-            <button type="submit" class="footer_form_btn">Subscribe</button>
+            <button type="submit" class="footer_form_btn">
+              Subscribe
+              <svg width="24" height="24" class="footer_form_svg">
+                <use href="./images/icons.svg#sent"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
